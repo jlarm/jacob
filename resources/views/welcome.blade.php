@@ -18,7 +18,7 @@
     <body class="font-sans bg-gradient-to-br from-blue-900 to-blue-700 text-white min-h-screen">
     <div class="max-w-7xl mx-auto p-5">
         <!-- Header Section -->
-        {{-- <livewire:header :player="$player" /> --}}
+        <livewire:header :player="$player" />
 
         <!-- Bio Section -->
         <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-6 mb-8">
