@@ -26,6 +26,7 @@ return new class extends Migration
             $table->json('positions')->nullable();
             $table->string('bats')->nullable();
             $table->string('throws')->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

@@ -20,6 +20,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property array $positions
  * @property string $bats
  * @property string $throws
+ * @property string $image
  */
 final class Player extends Model
 {
@@ -28,6 +29,7 @@ final class Player extends Model
         return [
             'birthdate' => 'date',
             'positions' => 'array',
+            'image' => 'string',
         ];
     }
 }
